@@ -1,0 +1,14 @@
+<layout>
+    <default>
+        <remove name="foo.bar" />
+    </default>
+
+    <page_three_columns>
+        <remove name="left" />
+        <remove name="right" />
+    </page_three_columns>
+
+    <page_two_columns_right>
+        <remove name="left" />
+    </page_two_columns_right>
+</layout>

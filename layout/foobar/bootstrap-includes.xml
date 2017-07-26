@@ -1,0 +1,31 @@
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addCss">
+                <file>css/bootstrap.css</file>
+            </action>
+            <action method="addJs">
+                <file>js/jquery.js</file>
+            </action>
+            <action method="addJs">
+                <file>js/bootstrap.js</file>
+            </action>
+            <block type="core/template" name="bootstrap.cdn" template="foobar/bootstrap/cdn.phtml"/>
+            <block type="core/text" name="bootstrap.cdn2">
+                    <action method="setText">
+                        <text><![CDATA[
+                            <link href="http://bootstrap.com/bootstrap.js" />
+                        ]]></text>
+                    </action>
+            </block>
+        </reference>
+    </default>
+
+    <catalog_category_default>
+        <reference name="head">
+            <action method="addCss">
+                <file>css/bootstrap-category.css</file>
+            </action>
+        </reference>
+    </catalog_category_default>
+</layout>

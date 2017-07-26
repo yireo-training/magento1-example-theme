@@ -1,0 +1,10 @@
+<theme>
+    <parent>rwd/default</parent>
+    <layout>
+        <updates>
+            <bootstrap>
+                <file>foobar/bootstrap-includes.xml</file>
+            </bootstrap>
+        </updates>
+    </layout>
+</theme>
